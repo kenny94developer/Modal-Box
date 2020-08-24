@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Subs.css">
 </head>
 
@@ -18,34 +17,35 @@
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
-    <!-- Modal content -->
-    <div class="modal-content">
-        <div class="modal-header"></div>
-        <div class="Sub_Svg"><img src="humaaansub.svg" width="120px" height="120px"> </div>
-        <p id="Subscription-Header-Text">Get Healthy Tips Weekly</p> <p id="sub-heading-text"> Stay updated by subscribing to our newsletter to get health tips and healthy lifestyle </p>
-        <span class="close">&times;</span>
-        <div id="subsciption-form">
-            <form action="" method="post" id="subscribe-form" class="validate" target="_blank" novalidate="">
-                <div class="subscribe-email">
-                    <input type="email" value="" name="EMAIL" placeholder="Enter your email" class="required email" id="mce-EMAIL">
-                </div>
-                <button id="Subs-Button">Subscribe</button>
-            </form>
+    <div class="over-all-content">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <!-- <div class="modal-header"></div> -->
+            <div style="display: flex;">
+                <div class="Sub_Svg"><img src="humaaansub.svg" width="120px" height="120px"> </div>
+                <span class="close">&times;</span>
+
+            </div>
+            <h2 id="Subscription-Header-Text">Get Healthy Tips Weekly</h2>
+            <h6 id="sub-heading-text"> Stay updated by subscribing to our newsletter to get health tips and healthy lifestyle </h6>
+
+            <div id="subsciption-form">
+                <form action="" method="post" id="subscribe-form" class="validate" target="_blank" novalidate="">
+                    <div class="subscribe-email">
+                        <form>
+                            <input type="email" value="" name="EMAIL" placeholder="Enter your email" class="subs-email" required>
+                            <div class="btn11">
+                                <a id="Subs-Button">Subscribe</a>
+                            </div>
+                        </form>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>
 
 
-
-
-
-
-
-
-
-
-
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script  src="Sub.js"></script>
 
 </body>
