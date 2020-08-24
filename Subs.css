@@ -20,10 +20,11 @@ body {font-family: "Open Sans", sans-serif;}
 /* Modal Content */
 .modal-content {
     background-color: #fefefe;
+    /* border-top: 22px solid red; */
     margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 40%;
+    padding: 35px;
+    border-top: 6px solid #0094FC;
+    width: 100%;
 }
 .modal-header {
     padding: 2px;
@@ -35,14 +36,16 @@ body {font-family: "Open Sans", sans-serif;}
 
 /* The Close Button */
 .close {
-    color: #aaaaaa;
+    color: rgb(42, 147, 252);
     float: right;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 38px;
+    font-weight: 100;
+    padding-left: 30%;
+    margin-top: 1%;
 }
 .close:hover,
 .close:focus {
-    color: #000;
+    color: rgb(248, 0, 0);
     text-decoration: none;
     cursor: pointer;
 }
@@ -52,21 +55,18 @@ body {font-family: "Open Sans", sans-serif;}
 }
 
 #subscription-header-text{
-    font-family: "Open Sans";
-    font-size: 1.4em;
-    font-weight: bold;
+    text-align: center;
     color: #0094FC;
-    margin-left: 25%;
+    line-height: 0;
 }
 
 #sub-heading-text{
-    font-family: "Open Sans";
-    font-size: 0.5em;
-    font-weight: lighter;
+    line-height: 0;
+    text-align: center;
     color: #0094FC;
-    margin-left: 15%;
-    margin-top: -0.5%;
-    top: 10%;
+    font-size: 9px;
+    font-weight: lighter;
+    padding-top: 1em;
 }
 #mce-EMAIL{
     border: 2px solid #0093FF;
@@ -76,4 +76,50 @@ body {font-family: "Open Sans", sans-serif;}
     min-width: 15rem;
     width: 90%;
     border-radius: 40px;
+}
+
+
+.subscribe-email{
+    display: flex;
+    color: #0093FF;
+    position: relative;
+    text-align: center;
+    padding-left: 10%;
+}
+.inp1{
+    padding: 1.5%;
+    width: 60%;
+    background-color: rgb(233,246,255);
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+.over-all-content{
+    margin: auto;
+    width: 45%;
+    box-shadow: 19px solid yellow;
+}
+#Subs-Button{
+    color: white;
+    border: none;
+    padding: 1%;
+    cursor: pointer;
+    font-size: small;
+}
+
+.btn11{
+    padding: 3%;
+    background-color: rgb(42, 147, 252);
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    text-align: left;
+
+}
+.subs-email{
+    background-color: rgb(233,246,255);
+    border: none;
+    border-width: 0;
+    padding: 3%;
+    width: 70%;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
 }
