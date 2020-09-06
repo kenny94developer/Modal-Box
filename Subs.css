@@ -141,13 +141,14 @@ body {font-family: "Open Sans", sans-serif;}
     font-size: 16px;
 }
 
-
 #sub-heading-text{
+   display: none;
+}
+
+#sub-heading-text2{
     text-align: center;
-    color: #0094FC;
-    font-weight: lighter;
-    padding-top: 1em;
-    font-size: 9px;
+    color: rgb(42, 147, 252);
+    word-break: break-all;
 }
 
 .Sub_Svg{
@@ -169,4 +170,30 @@ body {font-family: "Open Sans", sans-serif;}
     padding-left: 5%;
 }
 
+  }
+  
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+       
+#sub-heading-text2{
+    display: none;
+}
+  } 
+  
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+#sub-heading-text2{
+    display: none;
+}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+     
+#sub-heading-text2{
+    display: none;
+}
   }
