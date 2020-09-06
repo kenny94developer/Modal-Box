@@ -1,172 +1,50 @@
-body {font-family: "Open Sans", sans-serif;}
+
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Subs.css">
+</head>
+
+<body>
+
+<h2>Modal Example</h2>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <div class="over-all-content">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <!-- <div class="modal-header"></div> -->
+            <div class="sub-modal-content">
+                <div class="Sub_Svg"><img src="humaaansub.svg" width="120px" height="120px"> </div>
+                <span class="close">&times;</span>
+
+            </div>
+            <h2 id="Subscription-Header-Text">Get Healthy Tips Weekly</h2>
+            <h6 id="sub-heading-text"> Stay updated by subscribing to our newsletter to get health tips and healthy lifestyle </h6>
+
+            <div id="subsciption-form">
+                <form action="" method="post" id="subscribe-form" class="validate" target="_blank" novalidate="">
+                    <div class="subscribe-email">
+                            <input type="email" value="" name="EMAIL" placeholder="Enter your email" class="subs-email" required>
+                            <div class="btn11">
+                                <a id="Subs-Button">Subscribe</a>
+                            </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 
+<script  src="Sub.js"></script>
 
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-    background-color: #fefefe;
-    /* border-top: 22px solid red; */
-    margin: auto;
-    padding: 35px;
-    border-top: 6px solid #0094FC;
-    width: auto;
-}
-.modal-header {
-    padding: 2px;
-    background-color: #5cb85c;
-    color: white;
-    margin-top: 1%;
-
-}
-
-/* The Close Button */
-.close {
-    color: rgb(42, 147, 252);
-    float: right;
-    font-size: 38px;
-    font-weight: 100;
-    padding-left: 30%;
-    margin-top: 1%;
-}
-.close:hover,
-.close:focus {
-    color: rgb(248, 0, 0);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.Sub_Svg{
-    margin-left: 38%;
-}
-
-#subscription-header-text{
-    text-align: center;
-    color: #0094FC;
-    line-height: 0;
-}
-
-#sub-heading-text{
-    line-height: 0;
-    text-align: center;
-    color: #0094FC;
-    font-size: 9px;
-    font-weight: lighter;
-    padding-top: 1em;
-}
-#mce-EMAIL{
-    border: 2px solid #0093FF;
-    color: #0093FF;
-    padding: .4rem 1.6rem;
-    max-width: 22rem;
-    min-width: 15rem;
-    width: 90%;
-    border-radius: 40px;
-}
-
-
-.subscribe-email{
-    display: flex;
-    color: #0093FF;
-    position: relative;
-    text-align: center;
-    padding-left: 10%;
-}
-.inp1{
-    padding: 1.5%;
-    width: 60%;
-    background-color: rgb(233,246,255);
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
-}
-#Subs-Button{
-    color: white;
-    border: none;
-    padding: 1%;
-    cursor: pointer;
-    font-size: small;
-}
-
-.btn11{
-    padding: 3%;
-    background-color: rgb(42, 147, 252);
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-    text-align: left;
-
-}
-.subs-email{
-    background-color: rgb(233,246,255);
-    border: none;
-    border-width: 0;
-    padding: 3%;
-    width: 70%;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
-}
-
-.over-all-content{
-    margin: auto;
-    width: 45%;
-    box-shadow: 19px solid yellow;
-}
-/* Responsiveness */
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-   
-.over-all-content{
-    margin: auto;
-    width: 80%;
-    box-shadow: 19px solid yellow;
-}
-
-
-#subscription-header-text{
-    text-align: center;
-    color: #0094FC;
-    font-size: 16px;
-}
-
-
-#sub-heading-text{
-    text-align: center;
-    color: #0094FC;
-    font-weight: lighter;
-    padding-top: 1em;
-    font-size: 9px;
-}
-
-.Sub_Svg{
-    margin-left: 25%;
-}
-.close {
-    color: rgb(42, 147, 252);
-    float: right;
-    font-size: 38px;
-    font-weight: 100;
-    padding-left: 15%;
-    margin-top: 1%;
-}
-.subscribe-email{
-    display: flex;
-    color: #0093FF;
-    position: relative;
-    text-align: center;
-    padding-left: 5%;
-}
-
-  }
+</body>
+</html>
