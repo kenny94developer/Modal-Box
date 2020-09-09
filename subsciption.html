@@ -10,37 +10,22 @@
 <body>
 
 <h2>Subscription Modal</h2>
-
-<!-- Trigger/Open The Modal -->
 <button id="myBtn">Open Modal</button>
 
-<!-- The Modal -->
 <div id="myModal" class="modal">
-
     <div class="over-all-content">
-        <!-- Modal content -->
         <div class="modal-content">
-            <!-- <div class="modal-header"></div> -->
-            <div style="display: flex;">
+            <span class="close">&times;</span>
+            <div class="sub-modal">
                 <div class="Sub_Svg"><img src="humaaansub.svg" width="120px" height="120px"> </div>
-                <span class="close">&times;</span>
-
             </div>
+
             <h2 id="Subscription-Header-Text">Get Healthy Tips Weekly</h2>
             <p id="sub-heading-text"> Stay updated by subscribing to our newsletter to get tips and healthy lifestyle </p>
-            
-            <p id="sub-heading-text2"> Stay updated by subscribing <br> to our newsletter to get tips and healthy lifestyle </p>
-
-            <div id="subsciption-form">
-                <form action="" method="post" id="subscribe-form" class="validate" target="_blank" novalidate="">
-                    <div class="subscribe-email">
-                        <form>
+            <div id="subscription-form">
+                <form action="" method="post" id="subscribe-form" class="subscribe-email" target="_blank" novalidate="">
                             <input type="email" value="" name="EMAIL" placeholder="Enter your email" class="subs-email" required>
-                            <div class="btn11">
-                                <a id="Subs-Button">Subscribe</a>
-                            </div>
-                        </form>
-                    </div>
+                            <div class="btn11"><a id="Subs-Button">Subscribe</a> </div>
                 </form>
             </div>
         </div>
