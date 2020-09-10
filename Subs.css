@@ -132,7 +132,6 @@ body {font-family: "Open Sans", sans-serif;}
 .over-all-content{
     margin: auto;
     width: 45%;
-    box-shadow: 19px solid yellow;
 }
 
 
@@ -142,7 +141,6 @@ body {font-family: "Open Sans", sans-serif;}
         display: flex;
         margin: auto;
         width: 80%;
-        box-shadow: 19px solid yellow;
     }
 
 
@@ -165,7 +163,6 @@ body {font-family: "Open Sans", sans-serif;}
 
     .sub-modal{
         display: flex;
-        justify-content: space-between;
     }
 
 }
